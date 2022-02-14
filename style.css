@@ -1,0 +1,54 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 10px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #A1C5FD;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.slider-img {
+    width: 1300px;
+    padding: 20px;
+}
+
+.image {
+    width: 300px;
+    height: 320px;
+    float: left;
+    padding: 0 0 0 20px;
+}
+
+.p-text {
+    column-count: 4;
+    column-rule: 2px solid black;
+    text-align: justify;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.card {
+    background-image: linear-gradient(to right, #A1C4FD, #93D8F7, #C2E9FB);
+    padding-bottom: 20px;
+}
